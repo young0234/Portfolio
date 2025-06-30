@@ -1,0 +1,316 @@
+/* Import Local SCSS Files */
+@import 'variables', 'reset', 'fonts', 'header-footer';
+
+
+/* common */
+body {
+  overflow-x: hidden;
+}
+/* inner */
+[class*=inner] {
+  width: 1200px;
+  height: inherit;
+  margin: auto;
+}
+
+/* background-line */
+.background-line{
+  position: absolute;
+  z-index: -1;
+  &.line01,
+  &.line04
+  {
+    top: 200px; 
+  }
+  &.line02,
+  &.line03{
+    right: 0;
+  }
+  &.line03{
+    top: 2050px;
+    transform: rotate(180deg);
+  }
+}
+.sub1{
+  .line02{
+    top: 4250px;
+  }
+}
+.sub2{
+  .line02{
+    top: 5700px;
+  }
+  .line04{
+    top: 3600px;
+  }
+}
+.sub3{
+  .line02{
+    top: 5400px;
+  }
+  .line04{
+    top: 3600px;
+  }
+}
+.sub4{
+  .line02{
+    top: 3250px;
+  }
+}
+.sub5{
+  .line02{
+    top: 3600px;
+  }
+}
+
+
+/* total */
+.total-inner{
+  display: flex;
+  gap: 10px;
+  margin-top: 100px;
+  .phone-title, .phone-buttons{
+    display: none;
+  }
+  .total-left{
+    background: $White;
+    flex: 7;
+    border: 1px solid $Light-gray;
+    border-radius: 10px;
+    .total-left-wrap{
+      padding: 30px 20px;
+      .title{
+        margin-bottom: 50px;
+        .title-top{
+          display: flex;
+          align-items: center; 
+          h1{
+            font-size: 35px;
+            font-family: $Title-Font;
+          }
+          .badge{
+            margin-left: 12px;
+            display: flex;
+            gap: 8px;
+            p{
+              font-size: 14px;
+              padding: 4px 10px;
+              border-radius: 4px;
+              &.team{
+                color: $White;
+                background: #4E7243;
+              }
+              &.single{
+                color: $White;
+                background: #F89C08;
+              }
+              &.onlypc{
+                color: $White;
+                background: rgb(55, 92, 122);
+              }
+              &.responsive{
+                color: $White;
+                background: #865757;
+              }
+            }
+          }
+        }
+        .title-bottom{
+          margin-top: 8px;
+          p{
+            font-size: 18px;
+            strong{
+              color: #04006B;
+            }
+          }
+        }
+      }
+      .project{
+        margin-bottom: 50px;
+        &:last-child{margin-bottom: 0;}
+        .sub-title{
+          font-size: 24px;
+          font-weight: bold;
+        }
+        ul{
+          margin-left: 20px;
+          margin-top: 8px;
+          li{
+            font-size: 18px;
+            line-height: 22px;
+          }
+        }
+      }
+      .result{
+        .sub-title{
+          font-size: 24px;
+          font-weight: bold;
+        }
+        .small-title{
+          font-size: 20px;
+          color: #6C0000;
+          margin-top: 5px;
+        }
+        .photo-section{
+          margin-bottom: 50px;
+          img{
+            width: 100%;
+            margin: 10px auto;
+          }
+          h4{font-size: 20px;} 
+          ul{
+            margin-top: 5px;
+            margin-left: 40px;
+            li{
+              list-style: disc;
+              font-size: 18px;
+              line-height: 22px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .total-right{
+    background: $White;
+    position: sticky;
+    top: 100px; 
+    align-self: flex-start;
+    flex: 3;
+    border: 1px solid $Light-gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 726px;
+    .total-right-wrap{
+      padding: 30px 20px;
+      .go-to-buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-bottom: 30px;
+        .button{
+          margin: auto;
+          box-sizing: border-box;
+          width: 330px; height: 40px;
+          border: 1px solid $Light-gray;
+          border-radius: 10px;
+          display: flex;
+          align-items: center;  
+          padding: 10px;   
+          position: relative;
+          background: $White;
+          cursor: pointer;
+          transition: .3s;
+          box-shadow: 0 2px 2px $Light-gray;
+          &:hover{
+            background: $Chacol;
+            color: $White;
+            img{filter: invert(1);}
+          }
+          img{
+            &:first-child{
+              width: 25px; height: 25px;
+              margin-right: 15px;
+            }
+            &:last-child{
+              width: 16px; height: 16px;
+              position: absolute;
+              right: 10px; 
+            }
+          }
+          p{
+            font-size: $h5-px;
+            flex-grow: 1;
+          }
+        }
+      }
+      .details{
+        box-sizing: border-box;
+        margin-bottom: 30px;
+        h4{font-size: $h4-px;}
+        .detail-box{
+          color: $Chacol;
+          width: 330px;
+          box-sizing: border-box;
+          margin-top: 8px;
+          border-radius: 10px;
+          padding: 5px 15px;
+          border: 1px solid $Light-gray;
+          .each-detail{
+            height: 40px;
+            border-bottom: 1px dashed $Light-gray;
+            display: flex;
+            justify-content: space-between;
+            &:last-child{border: none;}
+            h5{
+              font-size: 16px;
+              align-items: center;
+              display: flex;
+            }
+            .explan{
+              &-skill{
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                gap: 2px;
+                p{
+                  padding: 4px 2px 2px 2px;
+                  border-radius: 5px;
+                  border: 1px solid $Chacol;
+                  height: 18px;
+                }
+              }
+              &-text{
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                p{}
+              }
+            }
+          }
+        }
+      }
+      .short-intro{
+        box-sizing: border-box;
+        margin-bottom: 30px;
+        h4{font-size: $h4-px;}
+        .detail-box{
+          box-sizing: border-box;
+          color: $Chacol;
+          margin-top: 8px;
+          border-radius: 10px;
+          width: 330px;
+          padding: 15px 12px;
+          border: 1px solid $Light-gray;
+          p{
+            font-size: 14px;
+            line-height: 17px;
+          }
+        }
+      }
+      .inquiry{
+        box-sizing: border-box;
+        h4{font-size: $h4-px; margin-bottom: 3px;}
+        .inquiry-text{color: $Chacol;}
+        .email-copy{
+          margin-top: 8px;
+          height: 40px;
+          border: 1px solid $Light-gray;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          border-radius: 10px;
+          cursor: pointer;
+          transition: .3s;
+          box-shadow: 0 2px 2px $Light-gray;
+          &:hover{
+            background: $Chacol;
+            color: $White;
+          }
+          p, i{font-size: $h5-px;}
+        }
+      }
+    }
+  }
+}

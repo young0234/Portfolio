@@ -1,0 +1,114 @@
+/* Import Local SCSS Files */
+@import 'variables', 'reset', 'fonts';
+
+/* header */
+.header{
+  .header-wrap{
+    margin: 10px auto;
+    background: $Black;
+    box-sizing: border-box;
+    display: flex;
+    width: 350px; height: auto;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 12px;
+    .left{
+      display: flex;
+      .face-img{
+        border-radius: 50%;
+        padding: 1px;
+        border: 1px solid $White;
+        width: 45px; height: 45px;
+        img{
+          object-fit: cover;
+          width: 44px; height: 44px;
+          border-radius: 50%;
+        }
+      }
+      .name{
+        color: $White;
+        margin-left: 10px;
+        font-size: $h3-px;
+        line-height: 45px;
+      }
+    }
+    .right{
+      .buttons{
+        display: flex;
+        a{
+          margin-right: 5px;
+          display: block;
+          width: 46px; height: 46px;
+          text-align: center;
+          line-height: 46px;
+          border-radius: 50%;
+          background-color: $Gray;
+          transition: .3s;
+          &:hover{
+            background: $White;
+          }
+          &:last-child{
+            margin-right: 0;
+          }
+          i{
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+#copy-msg{
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 90px;
+  transform: translateX(-50%);
+  background: $Black;
+  color: $White;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  z-index: 10000;
+}
+#copy-msg.show {
+  display: block;
+  opacity: 1;
+}
+
+/* footer */
+.footer{
+  position: relative; 
+  .scroll-top-btn{
+    position: fixed;    
+    bottom: 30px;      
+    right: 50px;     
+    border: 3px solid $Chacol;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $White;
+    transition:  0.3s;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    &.visible{
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+    &:hover{
+      background-color: $Black;
+      border-color: $Min-white;
+      .bi{color: $Min-white;}
+    }
+    .bi{
+      font-size: 35px;
+      color: $Chacol;
+      transition: 0.3s;
+    }
+  }
+}

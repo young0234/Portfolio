@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>박서영의 포트폴리오입니다.</title>
+
+  <!---------------- favicon ---------------->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+  <!---------------- aos ---------------->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!---------------- swiper ---------------->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!---------------- bootstrap icons ---------------->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!---------------- iconify ---------------->
+  <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+
+
+  <!---------------- style ---------------->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+  <!-- background -->
+  <img class="background-line line01" src="images/background-line01.png" alt="배경선1">
+  <img class="background-line line02" src="images/background-line02.png" alt="배경선2">
+
+  <!-- header -->
+  <div class="header-include"></div>
+
+  <!-- section.main -->
+  <section class="main">
+    <div class="main-inner">
+      <div class="intro">
+        <img src="images/face-img.jpeg" alt="얼굴 사진">
+        <div class="text">
+          만나서 반갑습니다.<br>
+          박서영입니다.
+        </div>
+      </div>
+      <div class="aspirations">
+        <div class="aspiration-kr">
+          변화에 유연하게, <br>결과로 증명하는 웹 퍼블리셔
+        </div>
+        <div class="aspiration-en">
+          Flexible with change<br>– focused on results.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section.choice -->
+  <section class="choice">
+    <div class="choice-inner">
+      <div class="option">
+        <div class="option-title">다른 옵션</div>
+        <div class="option-buttons">
+          <div class="dropdown" data-type="all-project">
+            <div class="selected">모든 프로젝트</div>
+            <ul class="options">
+              <li data-value="all">모든 프로젝트</li>
+              <li data-value="main">대표 프로젝트</li>
+            </ul>
+          </div>
+          <div class="dropdown" data-type="responsive-project">
+            <div class="selected">전체형</div>
+            <ul class="options">
+              <li data-value="all">전체형</li>
+              <li data-value="responsive">반응형</li>
+              <li data-value="basic">기본형</li>
+            </ul>
+          </div>
+          <div class="dropdown" data-type="team-project">
+            <div class="selected">All</div>
+            <ul class="options">
+              <li data-value="all">All</li>
+              <li data-value="team">Team</li>
+              <li data-value="single">Single</li>
+            </ul>
+          </div>
+          <div class="dropdown" data-type="sort-order">
+            <div class="selected">최신순</div>
+            <ul class="options">
+              <li data-value="new">최신순</li>
+              <li data-value="old">오래된 순</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-title">사용 기술</div>
+        <div class="skill-buttons">
+          <a href="#" class="css active">
+            <img src="images/icon-css.png" alt="css">
+            <p>Css</p>
+          </a>
+          <a href="#" class="scss">
+            <img src="images/icon-scss.png" alt="scss">
+            <p>Scss</p>
+          </a>
+          <a href="#" class="javascript">
+            <img src="images/icon-javascript.png" alt="javascript">
+            <p>Javascript</p>
+          </a>
+          <a href="#" class="react">
+            <img src="images/icon-react.png" alt="react">
+            <p>React</p>
+          </a>
+          <a href="#" class="figma">
+            <img src="images/icon-figma.png" alt="figma">
+            <p>Figma</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section.container -->
+  <section class="container">
+    <div class="container-inner">
+      <div class="items">
+        <div class="item figma css scss javascript team basic" data-id="wildrift" data-project-type="main" data-date="20250622">
+          <div class="thumbnail-img">
+            <img src="images/tumb05-img.png" />
+          </div>
+          <div class="thumbnail-text">
+            <h3>와일드 리프트 (Wild Rift)</h3>
+            <p class="summary">
+              리그 오브 레전드의 IP를 적극 활용해 세계관과 캐릭터의 개성을 시각적으로 강조하며 게임 콘텐츠 정보를 명확하게 전달하는 구조를 설계한 작업입니다.
+            </p>
+            <div class="badge">
+              <p class="team">Team</p>
+              <p class="only-pc">only PC</p>
+            </div>
+          </div>
+        </div>
+        <div class="item figma css scss javascript team responsive" data-id="lotteria" data-date="20250617">
+          <div class="thumbnail-img">
+            <img src="images/tumb04-img.png" />
+          </div>
+          <div class="thumbnail-text">
+            <h3>롯데리아 (Lotteria)</h3>
+            <p class="summary">
+              롯데리아의 메인 브랜드 컬러를 적극 활용함으로써 브랜드의 개성을 강조하며  행사 정보 등을 포함해 풍부하게 전달함으로써 브랜드의 매력을 표현한 작업입니다.
+            </p>
+            <div class="badge">
+              <p class="team">Team</p>
+              <p class="responsive">Responsive</p>
+            </div>
+          </div>
+        </div>
+        <div class="item figma css scss javascript team responsive" data-id="ghibli" data-project-type="main" data-date="20250609">
+          <div class="thumbnail-img">
+            <img src="images/tumb03-img.png" />
+          </div>
+          <div class="thumbnail-text">
+            <h3>스튜디오 지브리 (Studio Ghibli)</h3>
+            <p class="summary">
+              ‘스튜디오 지브리'라는 브랜드의 이미지를 구체화하고, 공식 정보뿐 아니라 다양한 문화 콘텐츠를 함께 전달하는 포털형 글로벌 웹사이트 작업입니다.
+            </p>
+            <div class="badge">
+              <p class="team">Team</p>
+              <p class="responsive">Responsive</p>
+            </div>
+          </div>
+        </div>
+        <div class="item figma css scss javascript single responsive" data-id="inflearn" data-date="20250530">
+          <div class="thumbnail-img">
+            <img src="images/tumb02-img.png" />
+          </div>
+          <div class="thumbnail-text">
+            <h3>인프런 클론 코딩 (Inflearn)</h3>
+            <p class="summary">
+              인프런 공식 웹사이트를 클래스101의 UI/UX 디자인을 레퍼런스로 삼아 리디자인하고, 퍼블리싱까지 진행한 웹 리뉴얼 작업입니다.
+            </p>
+            <div class="badge">
+              <p class="single">Single</p>
+              <p class="responsive">Responsive</p>
+            </div>
+          </div>
+        </div>
+        <div class="item figma css single javascript responsive" data-id="artcenter" data-date="20250501">
+          <div class="thumbnail-img">
+            <img src="images/tumb01-img.png" />
+          </div>
+          <div class="thumbnail-text">
+            <h3>예술경영지원센터 (KAMS)</h3>
+            <p class="summary">
+              예술경영지원센터의 공식 웹사이트를 사용자 중심의 UI, 유연한 레이아웃 구성, 그리고 브랜드 아이덴티티에 맞춘 컬러 활용을 통해 리디자인한 웹 리뉴얼 작업입니다. 
+            </p>
+            <div class="badge">
+              <p class="single">Single</p>
+              <p class="responsive">Responsive</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section.modal -->
+  <section class="modal">
+    <div class="modal-inner">
+      <div class="close-btn"><i class="bi bi-x"></i></div>
+      <div class="internal-contents">
+        <div class="in-title">
+          <h1>와일드 리프트 (Wild Rift)</h1>
+        </div>
+        <div class="in-skills">
+          <div class="each-skill figma">
+            <img src="images/icon-figma.png" alt="Figma">
+            <p>Figma</p>
+          </div>
+          <div class="each-skill scss">
+            <img src="images/icon-scss.png" alt="Scss">
+            <p>Scss</p>
+          </div>
+          <div class="each-skill css">
+            <img src="images/icon-css.png" alt="Css">
+            <p>Css</p>
+          </div>
+          <div class="each-skill javascript">
+            <img src="images/icon-javascript.png" alt="Javascript">
+            <p>Javascript</p>
+          </div>
+        </div>
+        <div class="in-texts">
+          <div class="left-img">
+            <img src="images/modal05.gif" alt="와일드 리프트">
+          </div>
+          <div class="right-text">
+            <div class="parnassus">
+              <div class="parn-title">요약 설명</div>
+              <ul>
+                <li>
+                  게임 콘텐츠 정보를 명확히 전달하기 위해 정보 계층을 재구성.
+                </li>
+                <li>
+                  최신 이벤트 및 콘텐츠를 시각적으로 부각.
+                </li>
+                <li>
+                  브랜드 아이덴티티를 강화하고, 유저 유입과 유지를 유도하는 디자인 목표를 달성했습니다.
+                </li>
+              </ul>
+            </div>
+            <div class="parnassus">
+              <div class="parn-title">기여도</div>
+              <ul>
+                <li>
+                  기여도 : 25% (정보전달 중심 영역 디자인)
+                </li>
+                <li>
+                  메인 : 게임 소개 / 이벤트 / 푸터
+                </li>
+                <li>
+                  서브 : 공지사항 리스트 & 상세 페이지(텍스트, 영상)
+                </li>
+              </ul>
+            </div>
+            <div class="parnassus">
+              <div class="parn-title">제작 기간</div>
+              <ul>
+                <li>
+                  2025.06.17. - 2025.06.22. (5h - 6h, weekdays only)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="in-button">
+          <div class="more-btn">
+            <p>프로젝트 상세보기</p>
+            <i class="bi bi-arrow-right-circle"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <div class="footer-include"></div>
+
+  <!---------------- aos ---------------->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  
+  <!---------------- swiper ---------------->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+  
+  <!-- js -->
+  <script src="js/index.js"></script>
+</body>
+</html>
