@@ -596,7 +596,7 @@ body {
 }
 
 .sub3 .line02 {
-  top: 5400px;
+  top: 5100px;
 }
 .sub3 .line04 {
   top: 3600px;
@@ -661,7 +661,7 @@ body {
 }
 .total-inner .total-left .total-left-wrap .title .title-top .badge p.team {
   color: #FFFFFF;
-  background: #4E7243;
+  background: #239700;
 }
 .total-inner .total-left .total-left-wrap .title .title-top .badge p.single {
   color: #FFFFFF;
@@ -669,11 +669,11 @@ body {
 }
 .total-inner .total-left .total-left-wrap .title .title-top .badge p.onlypc {
   color: #FFFFFF;
-  background: rgb(55, 92, 122);
+  background: #0063b4;
 }
 .total-inner .total-left .total-left-wrap .title .title-top .badge p.responsive {
   color: #FFFFFF;
-  background: #865757;
+  background: #c70000;
 }
 .total-inner .total-left .total-left-wrap .title .title-bottom {
   margin-top: 8px;
