@@ -70,11 +70,11 @@ body {
     .option{
       .option-title{
         margin-bottom: 10px;
+        width: 65px;
         color: $Chacol;
         padding: 5px;
         border-bottom: 2px solid $Chacol;
         font-weight: bold;
-        font-size: $h4-px;
       }
       .option-buttons{
         display: flex;
@@ -82,7 +82,7 @@ body {
         gap: 10px;
         .dropdown{
           position: relative;
-          width: 140px;
+          width: 130px;
           font-size: 16px; 
           user-select: none;
           &:nth-child(2),
@@ -94,7 +94,6 @@ body {
             border-radius: 5px;
             background-color: $White;
             cursor: pointer;
-            font-size: $h5-px;
             &::after{
               content: "▼";
               font-size: 10px;
@@ -135,23 +134,23 @@ body {
       margin-left: 50px;
       .skill-title{
         margin-bottom: 10px;
+        width: 65px;
         color: $Chacol;
         padding: 5px;
         border-bottom: 2px solid $Chacol;
         font-weight: bold;
-        font-size: $h4-px;
       }
       .skill-buttons{
         display: flex;
-        gap: 10px !important;
         a{
           border: 1px solid $Gray;
           display: flex;
           line-height: 20px;
           border-radius: 5px;
           padding: 5px;
+          margin-right: 10px;
           transition: .3s;
-          background: $White; 
+          background: $White;
           &:hover, &.active{
             font-weight: bold;
             &.figma{border-color: #FF8A65; color: #FF8A65;}
@@ -170,7 +169,6 @@ body {
           }
           p{
             transition: .2s;
-            font-size: $h5-px;
           }
         }
       }
@@ -209,7 +207,7 @@ body {
         }
         .thumbnail-text{
           padding: 20px;
-          h3{font-size: $h3-px; font-weight: bold;}
+          h3{font-size: $h3-px;}
           .summary{
             margin-top: 15px;
             width: 340px; height: 65px;
@@ -224,7 +222,7 @@ body {
               border-radius: 3px;
               &.team{
                 color: $White;
-                background: #4E7243;
+                background: #239700;
                 margin-right: 5px;
               }
               &.single{
@@ -234,11 +232,11 @@ body {
               }
               &.responsive{
                 color: $White;
-                background: #865757;
+                background: #c70000;
               }
               &.only-pc{
                 color: $White;
-                background: rgb(55, 92, 122);
+                background: #0063b4;
               }
             }
           }

@@ -7,10 +7,11 @@
   [class*=inner]{
     width:90%; margin: auto;
   }
-  body{margin: auto;}
+  body{overflow-x: hidden;}
   /* index.html */
   // header
   .header{
+    width: 100%;
     .header-wrap{
       margin-top: 20px;
       width: 240px; height: 45px;
@@ -49,10 +50,12 @@
     width: 100%;
     &.line01{
       top: 500px;
+      transform: rotate(-10deg);
     }
     &.line02{
-      width: 60%;
+      width: 50%;
       top: 1170px;
+      right: 20px;
     }
   }
   // section.main
@@ -79,7 +82,8 @@
         }
         .aspiration-en{
           margin-top: 20px;
-          font-size: $h2-px;
+          font-size: 33px;
+          br{display: none;}
         }
       }
     }
@@ -90,16 +94,14 @@
       margin-top: -50px;
       flex-direction: column;
       .option{
-        .option-title{
-          font-size: 18px;
-        }
+        .option-title{}
         .option-buttons{
           .dropdown{
-            font-size: 16px;
-            width: 130px;
+            font-size: 12px;
+            width: 100px;
             &:nth-child(2),
-            &:nth-child(4){width: 75px;}
-            &:nth-child(3){width: 70px;}
+            &:nth-child(3){width: 55px;}
+            &:nth-child(4){width: 70px;}
             .selected{
               padding: 5px;
               &::after{
@@ -119,10 +121,8 @@
       .skill{
         margin-left: 0;
         margin-top: 15px;
-        .skill-title{font-size: 18px;}
+        .skill-title{}
         .skill-buttons{
-          flex-wrap: wrap;
-          gap: 5px;
           a{
             padding: 3px 2px;
             img{
@@ -130,7 +130,7 @@
               width: 15px;
               height: 15px;
             }
-            p{font-size: 16px;}
+            p{font-size: 12px;}
           }
         }
       }
@@ -196,7 +196,7 @@
         .in-title{
           margin-top: 35px;
           h1{
-            font-size: $h3-px;
+            font-size: 24px;
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
@@ -242,9 +242,9 @@
             border-radius: 10px;
             gap: 10px;
             p{
-              font-size: $h5-px;
+              font-size: 18px;
             }
-            .bi{font-size: $h5-px;}
+            .bi{font-size: 18px;}
           }
         }
       }
@@ -263,7 +263,7 @@
           align-items: center; 
           justify-content: space-between;
           h1{
-            font-size: $h3-px;
+            font-size: 24px;
             font-family: $Title-Font;
             width: 220px;
           }
@@ -276,7 +276,7 @@
               border-radius: 4px;
               &.team{
                 color: $White;
-                background: #4E7243;
+                background: #239700;
               }
               &.single{
                 color: $White;
@@ -284,11 +284,11 @@
               }
               &.onlypc{
                 color: $White;
-                background: rgb(55, 92, 122);
+                background: #0063b4;
               }
               &.responsive{
                 color: $White;
-                background: #865757;
+                background: #c70000;
               }
             }
           }
@@ -346,7 +346,7 @@
       .details{
         margin-top: 30px;
         box-sizing: border-box;
-        h4{font-size: $h4-px; font-weight: bold;}
+        h4{font-size: 20px; font-weight: bold;}
         .detail-box{
           color: $Chacol;
           width: 100%;
@@ -411,7 +411,7 @@
         }
         .project{
           .sub-title{
-            font-size: $h4-px;
+            font-size: 20px;
             ul{
               li{font-size: 15px;}
             }
@@ -419,8 +419,8 @@
         }
         .result{
           .sub-title{
-            font-size: $h4-px;
-            .small-title{font-size: $h5-px;}
+            font-size: 20px;
+            .small-title{font-size: 18px;}
             .photo-section{
               img{}
               h4{}
@@ -440,9 +440,10 @@
 
   /* footer */
   .footer{
+    width: 100%;
     .scroll-top-btn{  
-      bottom: 20px;      
-      right: 20px;     
+      bottom: 10px;      
+      right: 30px;     
       border: 1px solid $Chacol;
       width: 35px;
       height: 35px;
