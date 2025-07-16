@@ -195,6 +195,42 @@ document.querySelectorAll('.item').forEach(item => {
 
 /* section.modal */
 const modalData = {
+  movie: {
+    title: "영화 (Movie)",
+    skills: ["figma", "scss", "css", "javascript", "react"],
+    imgSrc: "/Portfolio/images/modal07.gif",
+    imgAlt: "영화",
+    summary: [
+      "모든 페이지가 클릭 가능하며 다양한 내용을 제공함.",
+      "검색창 사용 시 검색어가 잘 분리되어 편리함.",
+      "TMDB API를 활용해 풍부한 데이터를 이용할 수 있어 좋았음."
+    ],
+    contribution: [
+      "기여도: 100% (정보 전달 중심 영역의 디자인 및 퍼블리싱 전체 담당)",
+      "메인 : 네비 / 배너 / 영화 슬라이드 / 푸터",
+      "서브 : 무비즈 / 마이페이지 / 로그인 / 404페이지"
+    ],
+    period: ["2025.07.10. - 2025.07.16. (5h - 6h, weekdays only)"],
+    detailUrl: "/Portfolio/pages/portfolio-sub7.html"
+  },
+  weather: {
+    title: "날씨 앱 (Weather)",
+    skills: ["figma", "scss", "css", "javascript", "react"],
+    imgSrc: "/Portfolio/images/modal06.gif",
+    imgAlt: "날씨 앱",
+    summary: [
+      "버튼 클릭 시 콘텐츠와 배경이 동시에 전환 가능.",
+      "'더보기' 버튼을 통해 다양한 상세 정보를 확인할 수 있음.",
+      "사용자는 여행 전에 필요한 정보를 미리 얻어 더욱 편리함."
+    ],
+    contribution: [
+      "기여도: 100% (정보 전달 중심 영역의 디자인 및 퍼블리싱 전체 담당)",
+      "React를 활용하여 메인 페이지를 제작",
+      "추후 '더보기' 버튼을 상세 페이지로 확장할 예정"
+    ],
+    period: ["2025.07.08. - 2025.07.14. (5h - 6h, weekdays only)"],
+    detailUrl: "/Portfolio/pages/portfolio-sub6.html"
+  },
   wildrift: {
     title: "와일드 리프트 (Wild Rift)",
     skills: ["figma", "scss", "css", "javascript"],
