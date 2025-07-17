@@ -182,9 +182,8 @@
 ---
 
 ## 5. 관련 링크
-- [🔗 기획안 보기](https://docs.google.com/presentation/d/1NKfuPp0fPNx5C2RKO1NsUgs95fHsvwiHL9vtKUwOn_A/edit?usp=sharing)
-- [🎨 디자인 시안](https://www.figma.com/design/ImRE0J6im2BMgnxrXQ7Fsz/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80%EB%A6%AC%EB%89%B4%EC%96%BC_%EB%B0%95%EC%84%9C%EC%98%81?node-id=1-6&m=dev&t=RHWFTcaEK6r6dOuV-1)
-- [🌐 DEMO 페이지](https://young0234.github.io/artcenter/)
+- [🎨 디자인 시안](https://www.figma.com/design/o2NmVkMGsiidCAfTmyvHXR/%EA%B0%9C%EC%9D%B8%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4?node-id=0-1&t=b9vFnNWKQXuGjxCm-1)
+- [🌐 DEMO 페이지](https://young0234.github.io/Portfolio/)
 
 </br>
 </br>
