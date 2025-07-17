@@ -215,7 +215,7 @@ const modalData = {
   },
   weather: {
     title: "날씨 앱 (Weather)",
-    skills: ["figma", "scss", "css", "javascript", "react"],
+    skills: ["figma", "css", "javascript", "react"],
     imgSrc: "/Portfolio/images/modal06.gif",
     imgAlt: "날씨 앱",
     summary: [
