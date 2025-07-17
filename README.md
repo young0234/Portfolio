@@ -7,6 +7,16 @@
 
 <br/>
 
+## 관련 링크
+- [🎨 디자인 시안](https://www.figma.com/design/o2NmVkMGsiidCAfTmyvHXR/%EA%B0%9C%EC%9D%B8%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4?node-id=0-1&t=b9vFnNWKQXuGjxCm-1)
+- [🌐 DEMO 페이지](https://young0234.github.io/Portfolio/)
+
+</br>
+</br>
+</br>
+
+
+---
 
 #### **Schedule** 
 > **2025.06.23. - 2025.06.27. (5h - 6h, weekdays only)**
@@ -181,13 +191,3 @@
 
 ---
 
-## 5. 관련 링크
-- [🎨 디자인 시안](https://www.figma.com/design/o2NmVkMGsiidCAfTmyvHXR/%EA%B0%9C%EC%9D%B8%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4?node-id=0-1&t=b9vFnNWKQXuGjxCm-1)
-- [🌐 DEMO 페이지](https://young0234.github.io/Portfolio/)
-
-</br>
-</br>
-</br>
-
-
----
