@@ -1,5 +1,5 @@
 # **Website Redesign Project:** 
-### 포트폴리오 사이트 
+### 포트폴리오 사이트 (작성중입니다.)
 
 <br/>
   
@@ -79,10 +79,13 @@
 ## 2. 파일 구성
 ```
 🌱 artcenter  
- ┣ 📂 fonts   
- ┣ 📂 images     
+ ┣ 📂 fonts
+ ┣ 📂 files  
+ ┣ 📂 images
+ ┣ 📂 include
+ ┣ 📂 pages   
  ┣ 📂 css
- ┣ 📂 Scss    
+ ┣ 📂 scss    
  ┗ 📂 js    
    📄 index.html    
 ```
