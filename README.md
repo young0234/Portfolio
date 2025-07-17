@@ -101,7 +101,8 @@
 
 ### 3.1. 메인 페이지
 #### 3.1.1. 메인비주얼
-![메인비주얼](https://github.com/user-attachments/assets/86cccbda-e68d-4720-945f-0a22839db689)
+
+![메인페이지](https://github.com/user-attachments/assets/856a5d00-772e-4d95-86d5-386dc9ad1ad3)
 1. 좌측에는 ‘문화가 있는 날’ D-day 카운터를 함께 배치하여, 사이트 방문자의 시선을 사로잡습니다.
 2. D-day 카운터의 시간을 조정하여 남은 시간의 양을 한 번에 알아볼 수 있습니다.
 3. 우측에는 영상을 사용하여 브랜드가 추구하는 방향성을 명확히 전달합니다.
@@ -110,45 +111,11 @@
 </br>
 </br>
 
-#### 3.1.2. 주요 서비스 바로가기 섹션
-![주요 서비스 바로가기 섹션](https://github.com/user-attachments/assets/9a5b2c1c-7964-4a01-a97b-204aa36f53e5)
+#### 3.1.2. 모달 창
+
+![모달창](https://github.com/user-attachments/assets/886988f0-29d2-4e59-924f-82c5d3cb0026)
 1. 구독신청, 채용, 참가신청 등 자주 찾는 기능을 아이콘으로 배치하여 빠른 접근성 확보하였습니다.
 2. 직관적인 UI로 정보 탐색 시간 단축시킵니다.
-
-</br>
-</br>
-</br>
-
-#### 3.1.3. 뉴스 & 공지사항 카드형 콘텐츠
-![뉴스 & 공지사항 카드형 콘텐츠](https://github.com/user-attachments/assets/01c56d77-6f6d-4594-a8ea-db25eb2b248c)
-1. 다양한 예술 지원 사업을 탭 인터페이스로 전환 가능합니다.
-2. 각 정보별 컬러 아이덴티티 적용으로 구분이 쉬우며 시각적 일관성도 유지됩니다.
-
-</br>
-</br>
-</br>
-
-#### 3.1.4. 지원 사업 소개 섹션
-![지원 사업 소개 섹션](https://github.com/user-attachments/assets/5bd10c51-97d1-4de1-a334-aad00669b40e)
-1. 지원사업에 맞춰 탭으로 분류하여 한눈에 다양한 정보를 탐색 가능합니다.
-2. 각 카드엔 이미지, 제목, 요약 본문이 있어 시각 중심 정보 전달에 효과적입니다.
-
-</br>
-</br>
-</br>
-
-#### 3.1.5. 발간자료 슬라이드 섹션
-![발간자료 슬라이드 섹션](https://github.com/user-attachments/assets/915ea93c-2b83-4191-9d59-a359d48cf07b)
-1. Swiper 슬라이더로 구성된 발간자료 영역입니다.
-2. 마우스 호버 시 확대 효과와 함께 요약 정보 노출로 상호작용 유도하였습니다.
-
-</br>
-</br>
-</br>
-
-#### 3.1.6. 오시는 길 섹션
-![오시는 길 섹션](https://github.com/user-attachments/assets/f4ecb17d-66b2-4aca-bb97-cd58ee471b7a)
-1. 지도 API와 대중교통 정보 등을 포함하여 방문자의 실질적인 편의성을 고려하였습니다.
 
 </br>
 </br>
@@ -159,8 +126,9 @@
 
 ### 3.2. 서브 페이지 (총 2개)
 
+
 #### 3.2.1. 로그인
-![로그인](https://github.com/user-attachments/assets/3de76f5a-71c1-4083-9265-87f938b6aaa8)
+![portfolio03](https://github.com/user-attachments/assets/1d7c7018-4488-447a-ac2c-993723123c87)
 1. 로그인페이지의 맞는 문구를 배치하여 적용하였습니다.
 2. 좌측의 메뉴들에 호버시에 앞쪽에 선이 나오게 디자인하였습니다.
 
