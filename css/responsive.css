@@ -613,12 +613,10 @@ textarea[disabled] {
   }
   .background-line.line01 {
     top: 500px;
-    -webkit-transform: rotate(-10deg);
-            transform: rotate(-10deg);
   }
   .background-line.line02 {
     width: 50%;
-    top: 1170px;
+    top: 1300px;
     right: 20px;
   }
   .main .main-inner {

@@ -197,7 +197,7 @@ document.querySelectorAll('.item').forEach(item => {
 const modalData = {
   movie: {
     title: "영화 (Movie)",
-    skills: ["figma", "scss", "css", "javascript", "react"],
+    skills: ["figma", "scss", "javascript", "react"],
     imgSrc: "/Portfolio/images/modal07.gif",
     imgAlt: "영화",
     summary: [
@@ -233,7 +233,7 @@ const modalData = {
   },
   wildrift: {
     title: "와일드 리프트 (Wild Rift)",
-    skills: ["figma", "scss", "css", "javascript"],
+    skills: ["figma", "scss", "javascript"],
     imgSrc: "/Portfolio/images/modal05.gif",
     imgAlt: "와일드 리프트",
     summary: [
@@ -251,7 +251,7 @@ const modalData = {
   },
   lotteria: {
     title: "롯데리아 (Lotteria)",
-    skills: ["figma", "scss", "css", "javascript"],
+    skills: ["figma", "scss", "javascript"],
     imgSrc: "/Portfolio/images/modal04.gif",
     imgAlt: "롯데리아",
     summary: [
@@ -269,7 +269,7 @@ const modalData = {
   },
   ghibli: {
     title: "스튜디오 지브리 (Studio Ghibli)",
-    skills: ["figma", "scss", "css", "javascript"],
+    skills: ["figma", "scss", "javascript"],
     imgSrc: "/Portfolio/images/modal03.gif",
     imgAlt: "스튜디오 지브리",
     summary: [
@@ -287,7 +287,7 @@ const modalData = {
   },
   inflearn: {
     title: "인프런 클론 코딩 (Inflearn)",
-    skills: ["figma", "scss", "css", "javascript"],
+    skills: ["figma", "scss", "javascript"],
     imgSrc: "/Portfolio/images/modal02.gif",
     imgAlt: "인프런 클론 코딩 (Inflearn)",
     summary: [
@@ -305,7 +305,7 @@ const modalData = {
   },
   artcenter: {
     title: "예술경영지원센터 (KAMS)",
-    skills: ["figma", "scss", "css"],
+    skills: ["figma", "css", "javascript"],
     imgSrc: "/Portfolio/images/modal01.gif",
     imgAlt: "아트센터",
     summary: [
