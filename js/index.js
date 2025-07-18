@@ -210,7 +210,7 @@ const modalData = {
       "메인 : 네비 / 배너 / 영화 슬라이드 / 푸터",
       "서브 : 무비즈 / 마이페이지 / 로그인 / 404페이지"
     ],
-    period: ["2025.07.10. - 2025.07.16. (5h - 6h, weekdays only)"],
+    period: ["2025.07.10. - 2025.07.17. (5h - 6h, weekdays only)"],
     detailUrl: "/Portfolio/pages/portfolio-sub7.html"
   },
   weather: {
