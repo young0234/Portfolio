@@ -622,12 +622,13 @@ textarea[disabled] {
   .main .main-inner {
     margin-top: 50px;
   }
-  .main .main-inner .intro img {
-    width: 65px;
+  .main .main-inner .intro .img {
+    width: 70px;
+    height: 85px;
   }
   .main .main-inner .intro .text {
     bottom: 5px;
-    left: 75px;
+    left: 80px;
     font-size: 18px;
   }
   .main .main-inner .aspirations {
